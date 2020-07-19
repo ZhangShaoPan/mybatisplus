@@ -49,7 +49,7 @@ class MybatisplusApplicationTests {
         dsc.setUrl("jdbc:mysql://139.129.241.171:3306/sys?useSSL=false&useUnicode=true&characterEncoding=utf-8&serverTimezone=GMT%2B8");
         dsc.setDriverName("com.mysql.jdbc.Driver");
         dsc.setUsername("root");
-        dsc.setPassword("3dadfdff51bb1c94");
+        dsc.setPassword("xxxx");
         dsc.setDbType(DbType.MYSQL);
         mpg.setDataSource(dsc);
 //3、包的配置
