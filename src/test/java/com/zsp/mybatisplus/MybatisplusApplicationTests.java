@@ -12,9 +12,12 @@ import com.baomidou.mybatisplus.generator.config.StrategyConfig;
 import com.baomidou.mybatisplus.generator.config.po.TableFill;
 import com.baomidou.mybatisplus.generator.config.rules.DateType;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
+
+import com.zsp.mybatisplus.blog.exception.Try;
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
@@ -23,6 +26,9 @@ import java.util.List;
 class MybatisplusApplicationTests {
     @Test
     void ceshi() {
+        List<Integer> list = Arrays.asList(1, 2, 3, 4, 0);
+        
+
 
     }
 
